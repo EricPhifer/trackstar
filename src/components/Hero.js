@@ -7,7 +7,7 @@ import Cta from './Cta'
 
 const Header = styled.header`
   width: 100%;
-  height: 100%;
+  height: 100dvh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -22,9 +22,6 @@ const Header = styled.header`
   );
   img {
     position: absolute;
-    @media only screen and (max-height: 400px) {
-      top: -5rem;
-    }
   }
   // Landscape view
   @media only screen and (max-height: 600px) {
@@ -46,19 +43,10 @@ const Container = styled.div`
   h2 {
     margin: 0;
     padding: 0.5rem 0;
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-variant: small-caps;
     text-shadow: 0.1rem 0 0 var(--gray), -0.1rem 0 0 var(--gray),
       0 0.1rem 0 var(--gray), 0 -0.1rem 0 var(--gray);
-    .address {
-      font-size: 3rem;
-      @media only screen and (max-width: 615px) {
-        font-size: 2.5rem;
-      }
-      @media only screen and (max-width: 500px) {
-        font-size: 2rem;
-      }
-    }
 
     // Mobile view
     @media only screen and (max-width: 615px) {
@@ -71,9 +59,6 @@ const Container = styled.div`
     @media only screen and (max-height: 600px) {
       font-size: 2rem;
     }
-  }
-  h2:last-child {
-    font-size: 3rem;
   }
   // Mobile view
   @media only screen and (max-width: 750px) {
@@ -105,7 +90,7 @@ const Title = styled.h1`
     font-size: 5rem;
   }
   @media only screen and (max-width: 500px) {
-    font-size: 3rem;
+    font-size: 4.2rem;
   }
   // Landscape view
   @media only screen and (max-height: 600px) {
@@ -144,7 +129,8 @@ export default function StoryHero() {
               {...node.image}
               alt={node.alt}
               style={{
-                backgroundImage: 'fixed',
+                width: '100%',
+                height: '100%',
                 objectFit: 'cover',
                 auto: 'format',
               }}

@@ -31,6 +31,7 @@ const Container = styled.div`
   // Mobile view
   @media only screen and (max-width: 750px) {
     height: 90%;
+    font-size: 2rem;
   }
   @media only screen and (max-height: 500px) {
     height: calc(100% - 15rem);

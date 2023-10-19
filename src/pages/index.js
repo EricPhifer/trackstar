@@ -21,7 +21,7 @@ const HeroStyles = styled.div`
   display: block;
   padding-top: 10rem;
   margin-top: -10rem;
-  height: calc(100vh - 7rem);
+  height: 100dvh;
   position: relative;
   top: 7rem;
   z-index: 10;

@@ -64,8 +64,8 @@ const Step = styled.div`
 `
 
 const StepNum = styled.p`
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
   margin-right: 2rem;
   display: flex;
   justify-content: center;
@@ -73,12 +73,13 @@ const StepNum = styled.p`
   border: 0.7rem solid var(--blue);
   border-radius: 50%;
   padding: 1.5rem;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
 `
 
 const StepWords = styled.div`
   font-size: 2.4rem;
-
+  font-variant: small-caps;
+  letter-spacing: 0.25rem;
   @media only screen and (max-width: 500px) {
     font-size: 2rem;
   }

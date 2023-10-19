@@ -141,14 +141,26 @@ export default function Buy() {
                     auto: 'format',
                   }}
                 />
-                <Source href={buy.sourcelink}>{buy.source}</Source>
+                <Source
+                  href={buy.sourcelink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {buy.source}
+                </Source>
               </Image>
               <Title>{buy.title}</Title>
               <PortableText
                 value={buy._rawDescription}
                 components={defaultComponents}
               />
-              <Purchase href={buy.link}>Buy Now</Purchase>
+              <Purchase
+                href={buy.link}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Buy Now
+              </Purchase>
             </ProductCard>
           ))}
         </Overlord>

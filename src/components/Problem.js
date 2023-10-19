@@ -101,7 +101,6 @@ export default function Problem() {
               {...node.image}
               alt={node.alt}
               style={{
-                backgroundImage: 'fixed',
                 objectFit: 'cover',
                 auto: 'format',
               }}

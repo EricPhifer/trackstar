@@ -26,7 +26,7 @@ export default function Map() {
   return (
     <Section>
       <MapIframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50526.16112067933!2d-98.7830158817399!3d37.67540826949319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87a5b4980fa64dbd%3A0x59c057bff8cf553d!2sPratt%2C%20KS!5e0!3m2!1sen!2sus!4v1696523246559!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208957.83255263738!2d-106.84162979504082!3d35.08257892231796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220addd309837b%3A0xc0d3f8ceb8d9f6fd!2sAlbuquerque%2C%20NM!5e0!3m2!1sen!2sus!4v1697738764281!5m2!1sen!2sus"
         width="600"
         height="450"
         allowfullscreen=""
