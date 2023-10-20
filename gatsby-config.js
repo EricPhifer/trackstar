@@ -7,7 +7,7 @@ module.exports = {
     description: `You've got a long way to go, be comfortable while you run
     `,
     author: 'Phifer Web Solutions',
-    siteUrl: `https://trackstar.netlify.app`,
+    siteUrl: `https://trackstar-shoes.netlify.app`,
   },
   plugins: [
     'gatsby-plugin-image',
@@ -32,8 +32,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://trackstar.netlify.app',
-        sitemap: 'https://trackstar.netlify.app/sitemap/sitemap-index.xml',
+        host: 'https://trackstar-shoes.netlify.app',
+        sitemap:
+          'https://trackstar-shoes.netlify.app/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*' }],
       },
     },
