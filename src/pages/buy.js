@@ -18,7 +18,6 @@ const BuyStyles = styled.div`
 
 const Overlord = styled.div`
   max-width: 90rem;
-  min-height: 47rem;
   margin-top: 5rem;
   display: inline-flex;
   flex-flow: row wrap;
@@ -34,7 +33,6 @@ const Overlord = styled.div`
 const ProductCard = styled.div`
   --card-width: 27rem;
   width: var(--card-width);
-  height: 100%;
   position: relative;
   display: flex;
   flex-flow: column wrap;
@@ -49,7 +47,7 @@ const ProductCard = styled.div`
     11px 11px 29.2px rgba(0, 0, 0, 0.034),
     16.9px 16.9px 45px rgba(0, 0, 0, 0.039), 30px 30px 80px rgba(0, 0, 0, 0.05);
   p {
-    padding: 0.75rem;
+    padding: 0.75rem 0.75rem 4.75rem;
     font-size: 1.6rem;
     line-height: 1.2;
   }
